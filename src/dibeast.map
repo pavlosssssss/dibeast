@@ -1,0 +1,11 @@
+DIBEAST_0 {
+  global:
+    extern "C++" {
+      dibeast::*;
+      typeinfo?for?dibeast::*;
+      typeinfo?name?for?dibeast::*;
+      vtable?for?dibeast::*;
+    };
+  local:
+    *;
+};

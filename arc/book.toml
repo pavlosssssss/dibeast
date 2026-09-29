@@ -1,0 +1,11 @@
+[book]
+title = "DiBeast (libdibeast) - Architecture"
+authors = ["Pavlo Shyba"]
+language = "en"
+src = "src"
+
+[preprocessor.plantuml]
+plantuml-cmd = "plantuml"
+
+[output.html]
+no-section-label = true
