@@ -1,7 +1,8 @@
 # DiBeast
 
-**DiBeast** is a vibe coded [DIAL 2.2.1](DIAL-2ndScreenProtocol-2.2.1.txt) server library written on Boost.Beast
-and Boost.Asio. You configure the API surface (apps and, optionally, your own DIAL controller) and
+**DiBeast** is a vibe coded DIAL 2.2.1 Server Implementation. See [DIAL 2.2.1](DIAL-2ndScreenProtocol-2.2.1.txt). 
+Here a server library written on Boost.Beast and Boost.Asio. 
+You configure the API surface (apps and, optionally, your own DIAL controller) and
 bind each app to a launcher that knows how to start it; DiBeast does SSDP discovery and the REST
 service.
 
